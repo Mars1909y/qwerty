@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+header {
+  padding: 10px 0;
+}
+
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-center {
+  display: flex;
+  gap: 30px;
+}
+
+.header-center a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header-center a:hover {
+  color: red;
+}
+
+.header-right button {
+  background-color: transparent;
+
+  border: 2px solid #de2e54;
+  color: #de2e54;
+  font-weight: 700;
+  width: 189px;
+  text-transform: uppercase;
+  height: 47px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.hero {
+  padding-top: 80px;
+  background-image: url("./image\ 4\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left h1 {
+  color: white;
+  font-size: 36px;
+}
+.hero-left button {
+  margin-top: 30px;
+  background-color: #de2e54;
+  border: 2px solid #de2e54;
+  color: white;
+  font-weight: 700;
+  width: 189px;
+  text-transform: uppercase;
+  height: 47px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.hero-right {
+  margin-bottom: -5px;
+}
+
+/* Xizmatlar Start  */
+
+.xizmatlar-parent {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.x-right h2 {
+  margin-bottom: 30px;
+}
+
+.x-right {
+  width: 600px;
+}
+
+.xparent {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.rright h2 {
+  margin-bottom: 20px;
+}
+
+.rright {
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-right {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-right a {
+  color: white;
+  text-decoration: none;
+}
